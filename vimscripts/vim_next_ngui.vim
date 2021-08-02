@@ -28,8 +28,6 @@ set tabstop=2
 set expandtab
 %retab!
 set history=1000
-set cursorline
-set cursorcolumn
 set hlsearch
 set novb
 set wrap
@@ -93,4 +91,4 @@ command -nargs=1 Vsb call VsbFunction(<f-args>)
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 "Onedark:
-colorscheme onedark
+" colorscheme onedark
