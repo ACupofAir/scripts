@@ -1,4 +1,4 @@
-"v2021.07.15.11_Linux
+"v2021.12.01.11_Linux
 
 " configs {{{
 set autowriteall
@@ -20,7 +20,6 @@ set clipboard=unnamedplus
 set number
 syntax on
 set ruler
-set foldenable
 set autoindent
 set cindent
 set shiftwidth=2
@@ -34,13 +33,11 @@ set wrap
 set numberwidth=4
 set t_Co=256
 set showtabline=2
-set foldmethod=marker
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
-filetype off
 " }}}
 
 " functions {{{
@@ -89,6 +86,3 @@ tnoremap <Esc> <C-\><C-n>
 command -nargs=1 Vsb call VsbFunction(<f-args>)
 "}}}
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-"Onedark:
-" colorscheme onedark
